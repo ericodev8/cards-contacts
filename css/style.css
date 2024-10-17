@@ -24,10 +24,10 @@
             background-color: #141414;
             margin: 0;
             padding: 0;
-            display: flex;  /* Habilita o Flexbox */
-            justify-content: center;  /* Centraliza horizontalmente */
-            align-items: center;  /* Centraliza verticalmente */
-            min-height: 100vh;  /* Define altura mínima como 100% da tela */
+            display: flex; 
+            justify-content: center; 
+            align-items: center;  
+            min-height: 100vh; 
         
     }
     .imgme{
@@ -106,7 +106,7 @@
     .links{
         text-decoration: none;
         font-family:'Inter-VariableFont_slnt,wght' ;
-        font-weight: bold;
+        font-weight:550;
         color: white;
         transition: color 0.3s ease;
     }
