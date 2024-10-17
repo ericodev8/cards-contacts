@@ -12,6 +12,7 @@
         border-radius: 20px;
         height: 600px;
         width: 350px;
+        /*width: 100%;*/
         margin: auto;
         margin-top: 180px;
         display: flex;
@@ -21,7 +22,13 @@
         
     }
     body{
-        background-color: #141414;
+            background-color: #141414;
+            margin: 0;
+            padding: 0;
+            display: flex;  /* Habilita o Flexbox */
+            justify-content: center;  /* Centraliza horizontalmente */
+            align-items: center;  /* Centraliza verticalmente */
+            min-height: 100vh;  /* Define altura mínima como 100% da tela */
         
     }
     .imgme{
@@ -110,4 +117,50 @@
     color: black;
     }
     
-    
+    /* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%; 
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .imgme {
+        width: 90px; 
+        height: 90px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .social1, .social2, .social3, .social4 {
+        width: 100%; 
+        height: 40px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 95%; 
+        margin-top: 50px;
+    }
+
+    .imgme {
+        width: 80px;
+        height: 80px;
+    }
+
+    .title {
+        font-size: 18px; 
+    }
+
+    .social1, .social2, .social3, .social4 {
+        width: 100%;
+        height: 35px; 
+    }
+
+    #desc, #sub {
+        font-size: 12px;
+    }
+}
