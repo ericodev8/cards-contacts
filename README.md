@@ -1,1 +1,1 @@
-Card de contatod de redes sociais.
+Card de contatos de redes sociais.
