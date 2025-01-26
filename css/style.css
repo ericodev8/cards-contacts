@@ -135,7 +135,8 @@
     }
 
     .imgme {
-        width: 200px; 
+        width: 180px;
+        height: 180px;
     }
 
     .title {
@@ -151,11 +152,12 @@
 @media (max-width: 480px) {
     .container {
         max-width: 95%; 
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
     .imgme {
-        width: 180px;
+        width: 150px;
+        height: 150px;
     }
 
     .title {
