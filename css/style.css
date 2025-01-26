@@ -31,8 +31,8 @@
         
     }
     .imgme{
-        width: 110px; ;
-        height: 110px;
+        width: 200px; ;
+        height: 200px;
         margin-top: 50px;
         border-radius: 50%;
         object-fit:cover
@@ -61,7 +61,7 @@
         color: rgba(255, 255, 255, 0.959);
         font-size: small;
         margin-top: 10px;
-        font-weight: 300;
+        font-weight: 350;
     }
     .social1{
         display: flex;
