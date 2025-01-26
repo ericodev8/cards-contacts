@@ -151,7 +151,7 @@
 @media (max-width: 480px) {
     .container {
         max-width: 95%; 
-        margin-top: 50px;
+        margin-top: 25px;
     }
 
     .imgme {
