@@ -34,6 +34,7 @@
     }
     .imgme{
         width: 200px; ;
+        max-width: 100%;
         height: 200px;
         margin-top: 50px;
         margin-bottom: 1px;
@@ -134,8 +135,7 @@
     }
 
     .imgme {
-        width: 110px; 
-        height: 1100px;
+        width: 200px; 
     }
 
     .title {
@@ -155,8 +155,7 @@
     }
 
     .imgme {
-        width: 110px;
-        height: 110px;
+        width: 180px;
     }
 
     .title {
